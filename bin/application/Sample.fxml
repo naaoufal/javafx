@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <BorderPane fx:id="bo" prefHeight="592.0" prefWidth="829.0" style="-fx-background-color: #00000;" BorderPane.alignment="CENTER">
+         <left>
+            <VBox prefHeight="592.0" prefWidth="121.0" style="-fx-background-color: #0D1824;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onMouseClicked="#home" prefHeight="56.0" prefWidth="127.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Home" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onMouseClicked="#page1" prefHeight="56.0" prefWidth="127.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Technicien" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onMouseClicked="#page2" prefHeight="56.0" prefWidth="127.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Clients" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onMouseClicked="#page3" prefHeight="56.0" prefWidth="127.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Products" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="178.0" mnemonicParsing="false" onMouseClicked="#page4" prefHeight="56.0" prefWidth="127.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Machines" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <AnchorPane fx:id="ap" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #14242B;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="WHITE" layoutX="315.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>
